@@ -1,0 +1,95 @@
+body{
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    background-color: #f4f4f4;
+}
+
+.container{
+    display:flex;
+}
+
+.green-background{
+    background-color: green;
+}
+
+.red-background{
+    background-color: red;
+}
+.blue-background{
+    background-color: blue;
+}
+.purple-background{
+    background-color: purple;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display:flex;
+    gap:50px;
+}
+
+#header-text{
+    cursor:pointer;
+}
+
+#hamburger-menu{
+    width: 50px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    margin-top: 5px;
+    border-radius:25px;
+}
+
+#side-menu{
+    width: 100px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#side-menu ul{
+    padding: 15px;
+}
+
+#side-menu ul li{
+    margin: 20px 0;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-left: 5px;
+    color: white;
+    border-radius: 25px;
+
+}
+#home-btn{
+    background-color: black;
+    text-align: center;
+}
+ #green-btn{
+     background-color: green;
+     text-align: center;
+ }
+ #red-btn{
+     background-color: red;
+     text-align: center;
+ }
+ #blue-btn{
+     background-color: blue;
+     text-align: center;
+ }
+ #purple-btn{
+     background-color: purple;
+     text-align: center;
+ }
+
+
+#color-text{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
